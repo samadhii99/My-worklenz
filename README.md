@@ -1,6 +1,6 @@
 ## My Worklenz
 
-**Auth Flow App** is a modern, feature-rich authentication system built with **React**. It showcases a seamless user authentication experience while supporting multiple languages through **i18next**. The application leverages a clean and responsive UI with **Ant Design** components, providing a user-friendly interface. Developed in **TypeScript** for type safety and scalability, it incorporates **React Router** for efficient client-side navigation.
+**My Worklenz** is a modern, feature-rich authentication system built with **React**. It showcases a seamless user authentication experience while supporting multiple languages through **i18next**. The application leverages a clean and responsive UI with **Ant Design** components, providing a user-friendly interface. Developed in **TypeScript** for type safety and scalability, it incorporates **React Router** for efficient client-side navigation.
 
 ---
 
