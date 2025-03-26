@@ -1,0 +1,18 @@
+{
+   "title": "Inicia sesión en tu cuenta",
+    "emailRequired": "¡Por favor, ingresa tu correo electrónico!",
+    "emailInvalid": "¡Por favor, ingresa un correo electrónico válido!",
+    "emailPlaceholder": "Correo electrónico",
+    "passwordRequired": "¡Por favor, ingresa tu contraseña!",
+    "passwordPlaceholder": "Contraseña",
+    "rememberMe": "Recordarme",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "loginButton": "Iniciar sesión",
+    "dividerOr": "O",
+    "googleSignIn": "Iniciar sesión con Google",
+    "noAccount": "¿No tienes una cuenta?",
+    "signUp": "Registrarse",
+    "loginSuccessful": "¡Inicio de sesión exitoso!",
+    "loginFailed": "Inicio de sesión fallido. Intente de nuevo.",
+    "googleLoginAttempt": "Iniciando inicio de sesión con Google"
+}

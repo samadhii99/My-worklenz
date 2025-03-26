@@ -1,0 +1,199 @@
+/* File: src/styles/Auth.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fc; /* Increased whiteness from #f0f2f5 to #f8f9fc */
+  padding: 20px;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.logo-container {
+  margin-bottom: 16px;
+}
+
+.auth-logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 8px;
+  /* Removed filter here since we're handling this in the component */
+}
+
+.auth-footer {
+  margin-top: 16px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+/* Google Button Styling */
+.google-btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 40px !important;
+  padding: 0 15px !important;
+}
+
+.google-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Theme Toggle Button Styling */
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ensures smooth transition between themes */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ant-card,
+.ant-input,
+.ant-input-password,
+.ant-btn,
+.ant-divider,
+.ant-checkbox-wrapper {
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+/* Dark Theme Styles - Using consistent dark color */
+body.dark-theme {
+  background-color: #121212;
+  color: #f8f8f8;
+}
+
+/* Dark theme for auth container - now using same dark color */
+body.dark-theme .auth-container {
+  background-color: #121212;
+}
+
+/* Dark theme for card */
+body.dark-theme .auth-card {
+  background-color: #121212;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark theme for inputs */
+body.dark-theme .ant-input,
+body.dark-theme .ant-input-password .ant-input,
+body.dark-theme .ant-input-affix-wrapper {
+  background-color: #121212;
+  color: #f8f8f8;
+  border-color: #444;
+}
+
+/* Dark theme for input prefix icons */
+body.dark-theme .ant-input-prefix .anticon {
+  color: #aaa;
+}
+
+/* Dark theme for form labels */
+body.dark-theme .ant-form-item-label > label,
+body.dark-theme .ant-typography {
+  color: #f8f8f8;
+}
+
+/* Dark theme for links */
+body.dark-theme a {
+  color: #5d9bff;
+}
+
+/* Dark theme for buttons */
+body.dark-theme .ant-btn:not(.ant-btn-primary) {
+  background-color: #121212;
+  border-color: #555;
+  color: #f8f8f8;
+}
+
+/* Dark theme for checkbox */
+body.dark-theme .ant-checkbox-wrapper {
+  color: #f8f8f8;
+}
+
+/* Dark theme for divider */
+body.dark-theme .ant-divider {
+  color: #ccc;
+  border-color: #444;
+}
+
+/* Dark theme for placeholder text */
+body.dark-theme input::placeholder,
+body.dark-theme textarea::placeholder {
+  color: #888;
+}
+
+/* Input focus states in dark mode */
+body.dark-theme .ant-input:focus,
+body.dark-theme .ant-input-focused,
+body.dark-theme .ant-input-affix-wrapper:focus,
+body.dark-theme .ant-input-affix-wrapper-focused {
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  background-color: #121212;
+}
+
+/* Dark theme for dropdown menus */
+body.dark-theme .ant-dropdown-menu {
+  background-color: #121212;
+}
+
+body.dark-theme .ant-dropdown-menu-item {
+  color: #f8f8f8;
+}
+
+body.dark-theme .ant-dropdown-menu-item:hover {
+  background-color: #1f1f1f;
+}
+
+/* Default logo styles for light mode */
+.auth-logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* Removed the inversion filter for dark mode since we're handling it in the component */
+/* body.dark-theme .auth-logo {
+  filter: brightness(0) invert(1) sepia(1) hue-rotate(190deg) saturate(2000%);
+  mix-blend-mode: screen;
+} */

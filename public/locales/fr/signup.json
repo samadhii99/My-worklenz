@@ -1,0 +1,36 @@
+{
+  "createAccount": "Créez votre compte.",
+  "fullName": "Nom complet",
+  "email": "E-mail",
+  "password": "Mot de passe",
+  "signUp": "S'inscrire",
+  "or": "OU",
+  "signInWithGoogle": "Continuer avec Google",
+  "alreadyHaveAccount": "Vous avez déjà un compte ?",
+  "logIn": "Connexion",
+  "placeholders": {
+    "fullName": "Entrez votre nom complet",
+    "email": "Entrez votre e-mail",
+    "password": "Entrez un mot de passe fort"
+  },
+  "validation": {
+    "namRequired": "Veuillez saisir votre nom !",
+    "emailRequired": "Veuillez saisir votre e-mail !",
+    "emailInvalid": "Veuillez saisir un e-mail valide !",
+    "passwordRequired": "Veuillez saisir votre mot de passe !",
+    "passwordLength": "Le mot de passe doit comporter au moins 8 caractères !"
+  },
+  "passwordStrength": {
+    "tooWeak": "Très faible",
+    "weak": "Faible",
+    "strong": "Fort",
+    "excellent": "Excellent"
+  },
+  "passwordHint": "Minimum 8 caractères, avec majuscules, minuscules, un chiffre et un symbole",
+  "agreement": {
+    "text": "En vous inscrivant, vous acceptez notre",
+    "privacyPolicy": "Politique de confidentialité",
+    "and": "et nos",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}

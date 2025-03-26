@@ -1,0 +1,36 @@
+{
+  "createAccount": "Create your account.",
+  "fullName": "Full name",
+  "email": "Email",
+  "password": "Password",
+  "signUp": "Sign Up",
+  "or": "OR",
+  "signInWithGoogle": "Sign in with Google",
+  "alreadyHaveAccount": "Already have an account?",
+  "logIn": "Log in",
+  "placeholders": {
+    "fullName": "Enter your full name",
+    "email": "Enter your email",
+    "password": "Enter a strong password"
+  },
+  "validation": {
+    "namRequired": "Please input your name!",
+    "emailRequired": "Please input your email!",
+    "emailInvalid": "Please enter a valid email!",
+    "passwordRequired": "Please input your password!",
+    "passwordLength": "Password must be at least 8 characters!"
+  },
+  "passwordStrength": {
+    "tooWeak": "Too weak",
+    "weak": "Weak",
+    "strong": "Strong",
+    "excellent": "Excellent"
+  },
+  "passwordHint": "Minimum of 8 characters, with upper and lowercase and a number and a symbol",
+  "agreement": {
+    "text": "By signing up, you will agree to our",
+    "privacyPolicy": "Privacy Policy",
+    "and": "and",
+    "termsOfService": "Terms of Service"
+  }
+}

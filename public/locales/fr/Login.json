@@ -1,0 +1,18 @@
+{
+"title": "Connectez-vous à votre compte",
+"emailRequired": "Veuillez saisir votre e-mail !",
+"emailInvalid": "Veuillez saisir un e-mail valide !",
+"emailPlaceholder": "E-mail",
+"passwordRequired": "Veuillez saisir votre mot de passe !",
+"passwordPlaceholder": "Mot de passe",
+"rememberMe": "Se souvenir de moi",
+"forgotPassword": "Mot de passe oublié ?",
+"loginButton": "Se connecter",
+"dividerOr": "OU",
+"googleSignIn": "Se connecter avec Google",
+"noAccount": "Vous n'avez pas de compte ?",
+"signUp": "S'inscrire",
+"loginSuccessful": "Connexion réussie !",
+"loginFailed": "Échec de la connexion. Veuillez réessayer.",
+"googleLoginAttempt": "Lancement de la connexion Google"
+}

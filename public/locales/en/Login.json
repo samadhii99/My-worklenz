@@ -1,0 +1,18 @@
+{
+  "title": "Log Into Your Account",
+  "emailRequired": "Please input your email!",
+  "emailInvalid": "Please enter a valid email address!",
+  "emailPlaceholder": "Email",
+  "passwordRequired": "Please input your password!",
+  "passwordPlaceholder": "Password",
+  "rememberMe": "Remember me",
+  "forgotPassword": "Forgot password?",
+  "loginButton": "Log In",
+  "dividerOr": "OR",
+  "googleSignIn": "Sign in with Google",
+  "noAccount": "Don't have an account?",
+  "signUp": "Sign Up",
+  "loginSuccessful": "Login Successful!",
+  "loginFailed": "Login Failed. Please try again.",
+  "googleLoginAttempt": "Initiating Google Sign-In"
+}
