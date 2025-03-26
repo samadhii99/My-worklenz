@@ -28,3 +28,5 @@
 
 ![image alt](https://github.com/samadhii99/my-worklenz/blob/2dbcd46367dea359dc8b51bbb9a29f9c23507664/2%20Spanish.PNG)
 
+![image alt](https://github.com/samadhii99/my-worklenz/blob/e92a8699ac2fa8ed95cf8910e42de8c2a78be515/3%20French.PNG)
+
